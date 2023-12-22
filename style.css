@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+}
+#heading{
+    animation: colorchange 5s infinite;
+}
+@keyframes colorchange{
+    0%  {
+        color: orange;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+     color: aqua;
+    }
+    75%{
+       color: black;
+    }
+    100%{
+       color: brown;
+    }
+}
+
+#btn{
+    background-color: gray;
+    border-radius: 10px;
+    height: 50px;
+    width: 90px;
+    margin: 10px 0 0  0;
+}
+#code{
+    margin: 20px 0 0 0;
+}
